@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+    padding-left: 30px;
+    font-size: larger;
+}
+.all{
+    display: flex;
+}
+.box{
+    padding-left: 70px;
+}
+.container1{
+    background-color: beige;
+    width: 80px;
+    border: 1px solid black;
+}
+ul li:first-child{
+    background-color: bisque;
+}
+ol li{
+    list-style: none;
+    padding-left: 30px;
+    font-size: larger;
+}
+.container2{
+    background-color: rgb(126, 126, 35);
+    width: 80px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.boz li:nth-child(odd){
+    background-color: rgb(255, 230, 42);
+}
+.box3 li:nth-child(even){
+    background-color: rgb(255, 230, 42);
+}
+.box4 li:nth-child(3n+1){
+    background-color: rgb(255, 230, 42);
+}

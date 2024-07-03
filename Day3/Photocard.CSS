@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+}
+.photo{
+    display:flex ;
+}
+.card {
+    padding: 20px;
+}
+.button{
+    width: 400px;
+    height: 35px;
+    border: none;
+    background-color: red;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: rgb(141, 0, 0);
+}

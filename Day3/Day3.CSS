@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: sans-serif;
+    color: #000;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container p {
+    color: aquamarine;
+}
+p{
+    color: blueviolet;
+}
+ul li {
+    background-color: aqua;
+}
+ul li ul li {
+    background-color: bisque;
+}
+.list>li {
+    background-color: burlywood;
+}
+h2:hover {
+    color: #ff006f ;
+}
+p:hover {
+    color: rgb(255, 56, 202);
+}
+h2 ~ p {
+    color: #ff006f;
+}
+input{
+    border: 1px solid yellow;
+}
+input[type="text"] {
+    border-color: #ff006f;
+}
+input[type="password"] {
+    border-color: chocolate;
+}
+input[type="email"] {
+    border-color: rgb(87, 30, 210);
+}
+input:focus {
+    color: #000;
+}
+input[type="checkbox"]:checked +label {
+    font-weight: bold;
+}
+/* ol li:first-child {
+    color: #ff006f;
+}
+ol li:last-child {
+    color: aquamarine;
+} */
+ /* ol li:nth-child(2n + 3){
+    color: blue;
+ } */
+/* ol li:not(:last-child){
+    color: #ff0000;
+} */
+ ul{
+    list-style: none;
+
+ }
+ ul li{
+    position: relative;
+    padding-left: 16px;
+ }
+ul li::before{
+   content:"";
+   width: 10px;
+   height: 10px;
+   background-color:blue;
+   position: absolute;
+   left:0;
+   top: 8px;
+} 
+/* ol li::after{
+    content: "DEF";
+} */
