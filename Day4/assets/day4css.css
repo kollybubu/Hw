@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container  {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* section */
+section{
+    padding: 40px 0;
+}
+section:nth-child(even){
+    background-color: rgb(235, 235, 235);
+}
+header{
+    background-color: orange;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+
+nav {
+    background-color: orange;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+
+}
+nav ul li{
+    width: calc(100% / 3);
+    text-align: center;
+    border-right: 1px solid white;
+    padding:8px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li:last-child{
+    border: none;
+}
+/* main */
+.btn{
+    min-width: 120px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid red;
+    color: black;
+    display: inline-block;
+    padding: 8px;
+}
+.cardbody{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.cardbox img{
+    display: block;
+    margin-bottom:8px; 
+    width: 100%;
+
+}
+.cardbox{
+    width: calc((100% / 4) - 12px);
+    
+}
+ .btn{
+    transform:skewX(-15deg);    
+    box-shadow: 0px 1px 5px 1px red;
+    width: 100%;
+    text-decoration: none;
+}
+h3{
+    padding: 20px;
+}
+.faq-box dt{
+    background-color: rgb(185, 27, 27);
+    padding:8px;
+    color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+}
+.faq-box dd:nth-of-type(1n+2){
+    display: none;
+}
+.sale-body p {
+    padding: 10px;
+}
+.ul1 li {
+    list-style: none;
+    padding: 10px;
+    position: relative;
+    border-bottom: 1px solid black;
+    margin: 20px;
+}
+.ul1 li::before{
+    content:"";
+   width: 10px;
+   height: 10px;
+   background-color:rgb(249, 179, 39);
+   position: absolute;
+   left:-7px;
+   top: 20px;
+   bottom: 2px;
+}
+.btn1{
+    background-color: yellow;
+    color: black;
+    width: 100%;
+    text-decoration: none;
+}
+.sale-card-body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    
+}
+.sale-card-body .sale-box{
+    width: calc((100% / 3) - 16px);
+    box-shadow:0px 0px 30px -13px;
+}
+.sale-box .sale-title{
+    font-size: 48px;
+    text-align: center;
+    line-height: 1;
+    
+}
+.sale-box .sale-title{
+    background-color: rgb(245, 227, 108);
+    clip-path: polygon(0 74%, 0 0, 100% 0, 100% 65%, 50% 100%);
+}
+.sale-box .sale-title span{
+    font-size: 19px;
+}
+.btnbod{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.btn1 {
+    padding-top: 5px;
+   text-align: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+.text-title{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.text-card-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.p1 {
+    padding: 30px;
+}
+.text-card-body .text-title{
+    font-size: 48px;
+    text-align: center;
+    line-height: 1;
+}
+.text-card-body .text-card-box{
+    width: calc((100% / 3) - 16px);
+    box-shadow:0px 0px 30px -13px;
+}
+.btn2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.text-card-box .text-title {
+    background-color: orange;
+    clip-path: circle(57.2% at 48% 0);
+}
+.btnb2 {
+    padding-top: 5px;
+    text-align: center;
+     width: 50px;
+     height: 30px;
+     border-radius: 20px;
+}
+.btnb2{
+    background-color: yellow;
+    color: black;
+    width: 150px;
+    text-decoration: none;
+}
+/* footer */
+footer{
+    background-color: black;
+    color: #f8f8f8;
+    text-align: center;
+}
+
+#card-section {
+    padding: 20px;
+    text-align: center;
+}
