@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* header  */
+header{
+    background-image:url(../img/bg1.png);
+    height: 500px;
+    background-repeat: no-repeat;
+
+
+}
+/* card body */
+.card-body{
+
+}
+.card-body-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.card-body .img1{
+    
+    width: calc((100% / 4) - 15px);
+}
+.img1{
+    justify-content: center;
+    background-color: rgb(185, 185, 185);
+}
+.card-body-box img{
+    align-items: center;
+}

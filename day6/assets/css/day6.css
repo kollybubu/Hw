@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    padding-left: 100px;
+}
+.boxbody{
+    position: relative;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite ;
+}
+.boxbody img{
+    
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+}
+.img2 img{
+    left:  50%;
+
+    top: 50%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+
+}
+.imgul{
+    list-style-image: url(../img/mail.png);
+}
+table, th, td{
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse:separate;
+    border-spacing: 30px;
+}
+table{
+    width: 100%;
+}
+thead th:nth-child(1){
+    width: 30%;
+}
+thead th:nth-child(2){
+    width: 30%;
+}
+td{
+    vertical-align: bottom  ;
+}
