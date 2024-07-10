@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", "Lato", "Dancing Script", sans-serif;
+    font-size: 16px;
+    color: var(--balck);
+    line-height: 25px;
+
+}
+:root{
+    --balck: #000000;
+    --blue: #325DFF;
+    --white: #ffffff;
+    --grey: #fafafa;
+    --darkgrey:#f0f0f0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Lato";
+}
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 65px;
+
+}
+h3{
+    font-size: 50px;
+    line-height: 67px;
+}
+h4{
+    font-size: 35px;
+    line-height: 47px;
+}
+h5{
+    font-size: 30px;
+    line-height: 27px;
+}
+h6{
+    font-size: 18px;
+    line-height: 24px;
+}
+/* common */
+.container-inner{
+    width: 1171px;
+    margin: 0 auto;
+}
+.cmd-btn{
+    background-color: var(--blue);
+    padding: 24px 8px;   
+    border-radius: 36px;
+    display: inline-block;
+    text-align: center;
+    min-width:307px ;
+}
+
+/* header */
+header {
+    background-image: url(../img/banner.png);
+    height: 100vh;
+    background-size: 100% 100%;
+    position:relative;
+}
+header::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 253,0.22);
+    left: 0;
+    top: 0;
+    
+}
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.logo {
+    font-family: "Dancing Script";
+    font-size: 28px;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 0 24px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.banner{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:var(--white);
+    margin: 8px;
+}
+.banner h2{
+    font-size: 100px;
+    line-height: 133px;
+    
+}
+.banner p {
+    font-size: 18px;
+    line-height:24px;
+    margin-bottom: 10px;
+}
+
+/* ----------------main--------------- */
+
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}       
+img{
+    max-width: 100%;
+}
+.flex-box{
+    display: flex;
+    align-items: center;
+}
+.flex-box>*{
+    width: 50%;
+}
+.flex-box-txt{
+    padding:40px ;
+}
+.flex-box-txt h3{
+    padding-bottom: 70px;
+}
+.flex-box-txt p {
+    padding-bottom: 60px;
+}
+.container-inner h2{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 47px;
+}
+.container-inner p {
+    text-align: center ;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.card-title{
+    max-width: 771px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.card-title h4 {
+    margin-bottom: 16px;
+}
+.bg-grey {
+    background-color: var(--grey);
+    padding-top: 40px;
+}
+#sec-contain{
+    padding: 60px 0 ;
+}
+.card-box-body{
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.card-box{
+    width: calc((100% / 3) - 20px);
+    border: 0.5px solid var(--darkgrey);
+    text-align: center;
+    padding: 61px;
+    background-color: var(--white);
+}
+.card-icon {
+    background-color: var(--blue);
+    width: 88px;
+    height: 88px;
+    display: inline-block;
+    border-radius: 50%  ;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.card-icon img{
+    padding-top: 30px;
+}
+.card-box h6{
+    margin: 24px 0;
+}
+.bg-img{
+    background-image: url(../img/view.png);
+    height: 100vh;
+    width: 1280px;
+    background-size: cover;
+    position:relative;
+}
+.play-icon h4{
+    line-height: 47px;
+}
+.play-icon{
+    color: var(--white);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.play-icon img{
+    padding-bottom: 50px;
+}
+.section-2{
+    padding-top: 30px;
+}
