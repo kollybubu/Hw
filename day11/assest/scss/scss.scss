@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import "var.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $primary-color;
+}
+.container_inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo {
+    position: relative;
+}
+.logo a{
+    font-family: $siliguri-font;
+    text-decoration: none;
+    color: $text-color;
+    font-size: 30px;
+}
+nav .nav_bar{
+    align-items:center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: $text-color;
+    padding: 40px;
+}
+nav span{
+    color: $secondry-color;
+}
+nav .home1{
+    color: $secondry-color;
+}
+nav li a:hover{
+    color: $hover-color;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.menu li a{
+    text-decoration: none;
+    color: $text-color;
+    font-family: $siliguri-font;
+}
+.logo::before{
+
+    content: "";
+    background-color: white;
+    width: 19px;
+    height: 2px;
+    position: absolute;
+    bottom: 96%;
+    left: 0%;
+}
+// -------------main--------------
+.body{
+    padding-top: 100px;
+}
+.text-box h2{
+    font-family: $siliguri-font;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1.3;
+    color: $text-color;
+}
+.text-box .icecream{
+    color: $secondry-color;
+}
+.text-box p {
+    font-family: $siliguri-font;
+    font-size: 1.8rem;
+    color: $text-color;
+}
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.text .text_part{
+    width: 50%;
+}
+.text .cream{
+    width: 50%;
+}
+.cream img{
+    margin-left: auto;
+    display: block; 
+}
+.btn{
+    display: flex;
+    gap: 30px;
+}
+
+ .Orderbtn{
+    padding-top: 12px;
+    display: inline-block;
+    text-decoration: none;
+    color: $black;
+    width: 100px;
+    height: 46px;
+    background-color: $secondry-color;
+    text-align: center;
+
+}
+.Explorebtn{
+    padding-top: 12px;
+    display: inline-block;
+    text-decoration: none;
+    color: $black;
+    width: 100px;
+    height: 46px;
+    border: 3px solid $secondry-color;
+    color: $secondry-color;
+    text-align: center;
+}
+.icons {
+    padding-top: 30px;
+    span{
+        display:inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 38px;
+        height: 38px;
+        background-color: $text-color;
+        border-radius: 5px;
+        i{
+            color: $black;
+        }
+    }
+}
